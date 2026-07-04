@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#145c46">
+  <title>国内基金投资建议助手</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">中国国内版</p>
+        <h1>基金投资建议助手</h1>
+      </div>
+      <button id="refreshBtn" class="icon-btn" type="button" title="生成今日报告" aria-label="生成今日报告">↻</button>
+    </header>
+
+    <nav class="tabs" aria-label="功能">
+      <button class="tab active" data-view="report" type="button">日报</button>
+      <button class="tab" data-view="markets" type="button">市场</button>
+      <button class="tab" data-view="sectors" type="button">行业</button>
+      <button class="tab" data-view="sources" type="button">来源</button>
+      <button class="tab" data-view="portfolio" type="button">持仓</button>
+    </nav>
+
+    <section class="hero">
+      <div>
+        <p id="reportDate" class="muted"></p>
+        <h2 id="marketMood">中性</h2>
+        <p id="summary"></p>
+      </div>
+      <div class="signal-ring" aria-label="综合评分">
+        <strong id="totalScore">0</strong>
+        <span>综合分</span>
+      </div>
+    </section>
+
+    <section id="reportView" class="view active">
+      <div class="section-head">
+        <h3>今日建议</h3>
+        <select id="riskSelect" aria-label="风险偏好">
+          <option value="稳健型">稳健型</option>
+          <option value="均衡型" selected>均衡型</option>
+          <option value="进取型">进取型</option>
+        </select>
+      </div>
+      <details class="panel report-section" open>
+        <summary><span>今日建议</span><span class="chevron">⌄</span></summary>
+        <h4 id="riskTitle"></h4>
+        <p id="riskAdvice"></p>
+      </details>
+      <details class="panel report-section" open>
+        <summary><span>综合分标准</span><span class="chevron">⌄</span></summary>
+        <div id="scoreStandard" class="score-standard"></div>
+      </details>
+      <details class="panel report-section" open>
+        <summary><span>支付宝今日选基</span><span id="pickDate" class="status-pill">今日</span></summary>
+        <div id="alipayPicks" class="pick-list"></div>
+      </details>
+      <details class="panel report-section">
+        <summary><span>最新采集</span><span id="liveStatus" class="status-pill">离线方案</span></summary>
+        <div id="liveList" class="news-list"></div>
+      </details>
+      <details class="panel report-section">
+        <summary><span>行业信号</span><span class="chevron">⌄</span></summary>
+        <div id="topSignals" class="signal-list"></div>
+      </details>
+      <details class="panel report-section warning" open>
+        <summary><span>风险提醒</span><span class="chevron">⌄</span></summary>
+        <ul id="alerts"></ul>
+      </details>
+    </section>
+
+    <section id="marketsView" class="view">
+      <div class="section-head">
+        <h3>全球股市</h3>
+        <select id="marketFilter" aria-label="市场筛选">
+          <option value="all">全部市场</option>
+          <option value="A股">国内大A</option>
+          <option value="港股">港股</option>
+          <option value="美股">美股</option>
+          <option value="全球共振">全球共振</option>
+        </select>
+      </div>
+      <div id="marketList" class="market-list"></div>
+      <article class="panel">
+        <h3>联动判断</h3>
+        <div id="globalLinks" class="link-list"></div>
+      </article>
+    </section>
+
+    <section id="sectorsView" class="view">
+      <div class="section-head">
+        <h3>行业评分</h3>
+        <select id="sectorFilter" aria-label="行业风格">
+          <option value="all">全部</option>
+          <option value="核心底仓">核心底仓</option>
+          <option value="稳健防守">稳健防守</option>
+          <option value="科技成长">科技成长</option>
+          <option value="中长期成长">中长期成长</option>
+          <option value="现金管理">现金管理</option>
+        </select>
+      </div>
+      <div id="sectorList" class="sector-list"></div>
+    </section>
+
+    <section id="sourcesView" class="view">
+      <article class="panel">
+        <h3>采集策略</h3>
+        <p>优先采集官方政策、交易所公告和基金公开数据；新闻只作为时效补充。对国家队资金采用公告、ETF 份额、成交额和基金定报做可验证推断。</p>
+      </article>
+      <article class="panel">
+        <h3>云端日报</h3>
+        <div class="form-grid">
+          <label>
+            <span>daily-news.json 地址</span>
+            <input id="cloudDailyUrlInput" type="url" inputmode="url" placeholder="https://你的用户名.github.io/仓库名/daily-news.json">
+          </label>
+        </div>
+        <div class="utility-row">
+          <button id="saveCloudUrlBtn" type="button">保存地址</button>
+          <button id="testCloudUrlBtn" type="button">测试刷新</button>
+        </div>
+        <p id="cloudUrlStatus" class="muted"></p>
+      </article>
+      <div id="sourceList" class="source-list"></div>
+    </section>
+
+    <section id="portfolioView" class="view">
+      <article class="panel">
+        <h3>我的组合</h3>
+        <p class="muted">数据只保存在本机，用于生成仓位提醒。</p>
+        <div class="form-grid">
+          <label>
+            <span>基金/行业</span>
+            <input id="holdingName" type="text" placeholder="例如 沪深300ETF联接">
+          </label>
+          <label>
+            <span>仓位%</span>
+            <input id="holdingWeight" type="number" min="0" max="100" inputmode="decimal" placeholder="20">
+          </label>
+        </div>
+        <div class="form-grid">
+          <label>
+            <span>市场</span>
+            <select id="holdingMarket">
+              <option value="A股">A股</option>
+              <option value="港股">港股</option>
+              <option value="美股">美股</option>
+              <option value="债券/货币">债券/货币</option>
+              <option value="混合">混合</option>
+            </select>
+          </label>
+          <label>
+            <span>类型</span>
+            <select id="holdingType">
+              <option value="权益基金">权益基金</option>
+              <option value="指数基金">指数基金</option>
+              <option value="债券基金">债券基金</option>
+              <option value="货币基金">货币基金</option>
+              <option value="QDII">QDII</option>
+              <option value="混合基金">混合基金</option>
+            </select>
+          </label>
+        </div>
+        <button id="addHoldingBtn" class="primary" type="button">添加持仓</button>
+      </article>
+      <article class="panel">
+        <div class="section-head compact">
+          <h3>支付宝快速导入</h3>
+          <button id="sampleImportBtn" type="button">示例</button>
+        </div>
+        <p class="muted">从支付宝持有页、账单流水或截图 OCR 结果复制文本到这里。支持“基金名 金额”或“基金名 仓位%”格式。</p>
+        <div class="screenshot-tools">
+          <label class="file-pick">
+            <span>选择支付宝持有页截图</span>
+            <input id="screenshotInput" type="file" accept="image/*">
+          </label>
+          <button id="ocrBtn" type="button">识别截图</button>
+        </div>
+        <img id="screenshotPreview" class="screenshot-preview" alt="持仓截图预览" hidden>
+        <p id="ocrStatus" class="muted"></p>
+        <textarea id="importText" class="import-box" rows="7" placeholder="例：&#10;易方达沪深300ETF联接 12000&#10;华夏恒生科技ETF联接 8000&#10;纳斯达克100指数(QDII) 10%"></textarea>
+        <div class="utility-row">
+          <button id="parseImportBtn" type="button">识别导入</button>
+          <button id="clearImportBtn" type="button">清空文本</button>
+        </div>
+        <div id="importPreview" class="import-preview"></div>
+      </article>
+      <div id="holdingList" class="holding-list"></div>
+      <div class="utility-row">
+        <button id="exportBtn" type="button">导出数据</button>
+        <button id="clearBtn" type="button">清空本地</button>
+      </div>
+      <textarea id="exportBox" class="export-box" readonly hidden></textarea>
+    </section>
+  </main>
+
+  <script src="data.js?v=7"></script>
+  <script src="config.js?v=8"></script>
+  <script src="live-data.js?v=7"></script>
+  <script src="fund-manager-data.js?v=7"></script>
+  <script src="app.js?v=7"></script>
+</body>
+</html>

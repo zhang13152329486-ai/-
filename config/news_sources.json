@@ -1,0 +1,74 @@
+[
+  {
+    "name": "中国政府网政策文件库",
+    "kind": "官方政策",
+    "url": "https://sousuo.www.gov.cn/zcwjk/policyDocumentLibrary",
+    "confidence": 100
+  },
+  {
+    "name": "国家发改委",
+    "kind": "官方政策",
+    "url": "https://www.ndrc.gov.cn/",
+    "confidence": 95
+  },
+  {
+    "name": "工信部",
+    "kind": "官方政策",
+    "url": "https://www.miit.gov.cn/",
+    "confidence": 95
+  },
+  {
+    "name": "财政部",
+    "kind": "官方政策",
+    "url": "https://www.mof.gov.cn/",
+    "confidence": 90
+  },
+  {
+    "name": "中国人民银行",
+    "kind": "货币政策",
+    "url": "https://www.pbc.gov.cn/",
+    "confidence": 95
+  },
+  {
+    "name": "中国证监会",
+    "kind": "资本市场",
+    "url": "https://www.csrc.gov.cn/",
+    "confidence": 95
+  },
+  {
+    "name": "国家统计局",
+    "kind": "宏观数据",
+    "url": "https://www.stats.gov.cn/",
+    "confidence": 90
+  },
+  {
+    "name": "上海证券交易所",
+    "kind": "交易公告",
+    "url": "https://www.sse.com.cn/",
+    "confidence": 88
+  },
+  {
+    "name": "深圳证券交易所",
+    "kind": "交易公告",
+    "url": "https://www.szse.cn/",
+    "confidence": 88
+  },
+  {
+    "name": "新华社",
+    "kind": "新闻辅助",
+    "url": "https://www.news.cn/",
+    "confidence": 82
+  },
+  {
+    "name": "证券时报",
+    "kind": "新闻辅助",
+    "url": "https://www.stcn.com/",
+    "confidence": 76
+  },
+  {
+    "name": "中国证券报",
+    "kind": "新闻辅助",
+    "url": "https://www.cs.com.cn/",
+    "confidence": 76
+  }
+]

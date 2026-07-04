@@ -1,0 +1,32 @@
+[
+  {
+    "bucket": "A股宽基底仓",
+    "market": "A股",
+    "strategy": "优先补仓",
+    "keywords": ["中证A500ETF联接", "沪深300ETF联接", "沪深300指数增强", "中证500ETF联接"]
+  },
+  {
+    "bucket": "港股弹性仓",
+    "market": "港股",
+    "strategy": "分批加购",
+    "keywords": ["恒生科技ETF联接", "港股互联网ETF联接", "恒生互联网ETF联接", "港股通红利"]
+  },
+  {
+    "bucket": "美股QDII",
+    "market": "美股",
+    "strategy": "持有/定投",
+    "keywords": ["纳斯达克100指数QDII", "纳斯达克100ETF联接", "标普500指数QDII", "全球科技QDII"]
+  },
+  {
+    "bucket": "科技主题",
+    "market": "A股",
+    "strategy": "只低吸",
+    "keywords": ["半导体ETF联接", "人工智能ETF联接", "云计算ETF联接", "通信ETF联接"]
+  },
+  {
+    "bucket": "防守仓",
+    "market": "债券/货币",
+    "strategy": "保留弹药",
+    "keywords": ["中短债", "短债债券", "同业存单指数", "货币基金"]
+  }
+]

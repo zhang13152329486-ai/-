@@ -1,0 +1,38 @@
+{
+  "name": "cn-fund-investment-assistant",
+  "version": "0.3.3",
+  "private": true,
+  "main": "desktop/main.js",
+  "scripts": {
+    "serve": "python -m http.server 4173 -d web",
+    "desktop": "electron .",
+    "build:win": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "cn.fundassistant.desktop",
+    "productName": "基金投资建议助手",
+    "asar": false,
+    "directories": {
+      "output": "dist-desktop"
+    },
+    "files": [
+      "desktop/**/*",
+      "web/**/*",
+      "scripts/collect_daily.py",
+      "scripts/collect_fund_managers.py",
+      "config/**/*",
+      "data/**/*",
+      "package.json"
+    ],
+    "win": {
+      "signAndEditExecutable": false,
+      "target": [
+        "portable"
+      ]
+    }
+  }
+}

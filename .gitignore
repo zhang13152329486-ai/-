@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Local build toolchains
+.build-tools/
+.vendor/
+
+# Build outputs
+dist/
+dist-desktop/
+android-webview/.gradle/
+android-webview/build/
+android-webview/app/build/
+android-webview/local.properties
+
+# Secrets and signing
+keystore/
+*.jks
+*.keystore
+*.p12
+
+# Generated or temporary app packages
+*.apk
+*.aab
+*.exe
+*.msi
+*.dmg
+*.AppImage
+
+# Logs and caches
+*.log
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local imported artifacts
+digital-ops-quiz.apk*

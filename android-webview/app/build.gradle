@@ -1,0 +1,21 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "cn.fundassistant.mobile"
+    compileSdk 36
+    buildToolsVersion "36.0.0"
+
+    defaultConfig {
+        applicationId "cn.fundassistant.mobile"
+        minSdk 26
+        targetSdk 36
+        versionCode 12
+        versionName "0.3.0"
+    }
+}
+
+dependencies {
+    implementation "com.google.mlkit:text-recognition-chinese:16.0.1"
+}

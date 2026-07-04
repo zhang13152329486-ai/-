@@ -1,0 +1,59 @@
+name: Daily Fund Report
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 0 * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  collect-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Collect daily report
+        run: python scripts/collect_daily.py
+
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p cloud
+          cp data/daily-news.json cloud/daily-news.json
+          cp web/live-data.js cloud/live-data.js
+          cat > cloud/index.html <<'HTML'
+          <!doctype html>
+          <meta charset="utf-8">
+          <title>Fund Assistant Daily Report</title>
+          <p>基金助手日报数据已发布。</p>
+          <p><a href="./daily-news.json">daily-news.json</a></p>
+          HTML
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: cloud
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
