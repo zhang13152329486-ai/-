@@ -91,6 +91,20 @@ function saveCloudDailyUrl(url) {
   return value;
 }
 
+function withCacheBust(url) {
+  return `${url}${url.includes("?") ? "&" : "?"}t=${Date.now()}`;
+}
+
+function cloudLiveScriptUrl(rawUrl) {
+  const url = (rawUrl || "").trim();
+  if (!url) return "";
+  if (/live-data\.js(?:$|\?)/.test(url)) return url;
+  if (/daily-news\.json(?:$|\?)/.test(url)) {
+    return url.replace(/daily-news\.json(?=$|\?)/, "live-data.js");
+  }
+  return url.replace(/\/?$/, "/live-data.js");
+}
+
 function averageScore() {
   const scores = data.sectors.map((item) => item.score);
   return Math.round(scores.reduce((sum, score) => sum + score, 0) / scores.length);
@@ -188,7 +202,7 @@ function renderLive() {
 function loadLiveDataFromScript() {
   return new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = `live-data.js?t=${Date.now()}`;
+    script.src = withCacheBust("live-data.js");
     script.onload = () => {
       liveData = window.FUND_ASSISTANT_LIVE || liveData;
       script.remove();
@@ -202,24 +216,57 @@ function loadLiveDataFromScript() {
   });
 }
 
+function loadLiveDataFromCloudScript() {
+  return new Promise((resolve, reject) => {
+    const scriptUrl = cloudLiveScriptUrl(currentCloudDailyUrl());
+    if (!scriptUrl) {
+      reject(new Error("云端日报地址未配置"));
+      return;
+    }
+    const before = window.FUND_ASSISTANT_LIVE;
+    const script = document.createElement("script");
+    script.src = withCacheBust(scriptUrl);
+    script.onload = () => {
+      script.remove();
+      const payload = window.FUND_ASSISTANT_LIVE;
+      if (!payload || !Array.isArray(payload.items) || payload === before) {
+        reject(new Error("云端 live-data.js 格式不正确"));
+        return;
+      }
+      liveData = payload;
+      resolve(payload);
+    };
+    script.onerror = () => {
+      script.remove();
+      reject(new Error("云端 live-data.js 加载失败"));
+    };
+    document.head.appendChild(script);
+  });
+}
+
 async function loadLiveDataFromCloud() {
   const url = currentCloudDailyUrl();
   if (!url) {
     throw new Error("云端日报地址未配置");
   }
-  const response = await fetch(`${url}${url.includes("?") ? "&" : "?"}t=${Date.now()}`, {
-    cache: "no-store"
-  });
-  if (!response.ok) {
-    throw new Error(`云端日报返回 ${response.status}`);
+  try {
+    const response = await fetch(withCacheBust(url), {
+      cache: "no-store"
+    });
+    if (!response.ok) {
+      throw new Error(`云端日报返回 ${response.status}`);
+    }
+    const payload = await response.json();
+    if (!payload || !Array.isArray(payload.items)) {
+      throw new Error("云端日报格式不正确");
+    }
+    liveData = payload;
+    window.FUND_ASSISTANT_LIVE = payload;
+    return payload;
+  } catch (error) {
+    console.warn("Cloud JSON refresh failed, falling back to live-data.js", error);
+    return loadLiveDataFromCloudScript();
   }
-  const payload = await response.json();
-  if (!payload || !Array.isArray(payload.items)) {
-    throw new Error("云端日报格式不正确");
-  }
-  liveData = payload;
-  window.FUND_ASSISTANT_LIVE = payload;
-  return payload;
 }
 
 async function refreshDailyReport() {

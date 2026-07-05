@@ -2,8 +2,10 @@ name: Daily Fund Report
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - master
   schedule:
-    - cron: "*/5 * * * *"
     - cron: "10 0 * * *"
     - cron: "40 0 * * *"
     - cron: "10 1 * * *"
