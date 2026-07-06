@@ -35,6 +35,8 @@ jobs:
           python-version: "3.11"
 
       - name: Collect fund manager candidates
+        continue-on-error: true
+        timeout-minutes: 4
         run: python scripts/collect_fund_managers.py
 
       - name: Collect daily report
