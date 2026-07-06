@@ -1,5 +1,5 @@
 window.FUND_MANAGER_DATA = {
-  "generatedAt": "2026-07-03T14:59:48+08:00",
+  "generatedAt": "2026-07-06T09:11:53+08:00",
   "source": "东方财富/天天基金公开页面",
   "disclaimer": "基金经理和产品数据来自公开网页抓取，可能存在延迟；具体以基金合同、招募说明书、基金公司公告和支付宝页面为准。",
   "buckets": [
@@ -29,10 +29,10 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "1.00",
             "rate": "0.10",
             "minBuy": "10",
-            "return1m": "0.08",
-            "return3m": "10.75",
-            "return6m": "9.36",
-            "return1y": "33.63"
+            "return1m": "0.14",
+            "return3m": "12.37",
+            "return6m": "10.06",
+            "return1y": "33.69"
           },
           "manager": {
             "managers": [
@@ -49,10 +49,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2026-04-01",
                 "end": "至今",
-                "days": "93天",
-                "return": "34.86%",
-                "peerAverage": "9.61%",
-                "rank": "998|6012"
+                "days": "96天",
+                "return": "35.08%",
+                "peerAverage": "10.29%",
+                "rank": "968|6007"
               },
               {
                 "code": "023408",
@@ -60,10 +60,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2026-04-01",
                 "end": "至今",
-                "days": "93天",
-                "return": "34.75%",
-                "peerAverage": "9.61%",
-                "rank": "1004|6012"
+                "days": "96天",
+                "return": "34.98%",
+                "peerAverage": "10.29%",
+                "rank": "973|6007"
               },
               {
                 "code": "159363",
@@ -71,10 +71,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2026-04-01",
                 "end": "至今",
-                "days": "93天",
-                "return": "37.30%",
-                "peerAverage": "9.61%",
-                "rank": "926|6012"
+                "days": "96天",
+                "return": "37.55%",
+                "peerAverage": "10.29%",
+                "rank": "913|6007"
               },
               {
                 "code": "013317",
@@ -82,10 +82,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2026-02-12",
                 "end": "至今",
-                "days": "141天",
-                "return": "39.05%",
-                "peerAverage": "3.38%",
-                "rank": "468|5910"
+                "days": "144天",
+                "return": "38.92%",
+                "peerAverage": "4.02%",
+                "rank": "466|5905"
               },
               {
                 "code": "013318",
@@ -93,10 +93,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2026-02-12",
                 "end": "至今",
-                "days": "141天",
-                "return": "38.89%",
-                "peerAverage": "3.38%",
-                "rank": "471|5910"
+                "days": "144天",
+                "return": "38.76%",
+                "peerAverage": "4.02%",
+                "rank": "476|5905"
               },
               {
                 "code": "588330",
@@ -104,10 +104,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2026-02-12",
                 "end": "至今",
-                "days": "141天",
-                "return": "42.40%",
-                "peerAverage": "3.38%",
-                "rank": "380|5910"
+                "days": "144天",
+                "return": "42.26%",
+                "peerAverage": "4.02%",
+                "rank": "375|5905"
               },
               {
                 "code": "025954",
@@ -115,10 +115,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-12-04",
                 "end": "至今",
-                "days": "211天",
-                "return": "-10.97%",
-                "peerAverage": "13.72%",
-                "rank": "4831|5636"
+                "days": "214天",
+                "return": "-9.54%",
+                "peerAverage": "14.39%",
+                "rank": "4770|5631"
               },
               {
                 "code": "025955",
@@ -126,10 +126,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-12-04",
                 "end": "至今",
-                "days": "211天",
-                "return": "-11.13%",
-                "peerAverage": "13.72%",
-                "rank": "4843|5636"
+                "days": "214天",
+                "return": "-9.70%",
+                "peerAverage": "14.39%",
+                "rank": "4790|5631"
               }
             ]
           },
@@ -157,10 +157,10 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "1.20",
             "rate": "0.12",
             "minBuy": "10",
-            "return1m": "-1.57",
-            "return3m": "7.84",
-            "return6m": "4.61",
-            "return1y": "23.58"
+            "return1m": "-1.44",
+            "return3m": "9.38",
+            "return6m": "5.25",
+            "return1y": "23.6"
           },
           "manager": {
             "managers": [
@@ -177,10 +177,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-11-06",
                 "end": "至今",
-                "days": "239天",
-                "return": "0.23%",
-                "peerAverage": "9.71%",
-                "rank": "3228|5530"
+                "days": "242天",
+                "return": "1.08%",
+                "peerAverage": "10.35%",
+                "rank": "3248|5525"
               },
               {
                 "code": "025479",
@@ -188,10 +188,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-11-06",
                 "end": "至今",
-                "days": "239天",
-                "return": "0.09%",
-                "peerAverage": "9.71%",
-                "rank": "3232|5530"
+                "days": "242天",
+                "return": "0.95%",
+                "peerAverage": "10.35%",
+                "rank": "3259|5525"
               },
               {
                 "code": "510670",
@@ -199,10 +199,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-10-20",
                 "end": "至今",
-                "days": "256天",
-                "return": "0.07%",
-                "peerAverage": "14.11%",
-                "rank": "3563|5463"
+                "days": "259天",
+                "return": "0.96%",
+                "peerAverage": "14.75%",
+                "rank": "3555|5458"
               },
               {
                 "code": "588000",
@@ -221,10 +221,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-12-13",
                 "end": "至今",
-                "days": "1年又202天",
-                "return": "26.23%",
-                "peerAverage": "42.52%",
-                "rank": "2364|4258"
+                "days": "1年又205天",
+                "return": "27.00%",
+                "peerAverage": "43.28%",
+                "rank": "2375|4254"
               },
               {
                 "code": "020868",
@@ -254,10 +254,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-03-05",
                 "end": "至今",
-                "days": "2年又120天",
-                "return": "42.28%",
-                "peerAverage": "63.18%",
-                "rank": "1867|3423"
+                "days": "2年又123天",
+                "return": "43.38%",
+                "peerAverage": "63.93%",
+                "rank": "1872|3419"
               }
             ]
           },
@@ -285,16 +285,16 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "1.00",
             "rate": "0.10",
             "minBuy": "10",
-            "return1m": "-1.61",
-            "return3m": "7.54",
-            "return6m": "4.48",
-            "return1y": "23.37"
+            "return1m": "-1.53",
+            "return3m": "9.0",
+            "return6m": "5.08",
+            "return1y": "23.35"
           },
           "manager": {
             "managers": [
               {
                 "name": "李康",
-                "profile": "李康的信息。\" /> 基金档案 基 金 基 金 基金经理 <li class=\"noborder\" data-select",
+                "profile": "李康的信息。\" /> 收藏本站 | 安全登录 | | 安全退出 免费开户 忘记密码 | 手机客户端 <div id=\"float_phone\" class=\"float_phone dropdown-men",
                 "dates": []
               }
             ],
@@ -305,10 +305,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-12-30",
                 "end": "至今",
-                "days": "185天",
-                "return": "3.63%",
-                "peerAverage": "9.86%",
-                "rank": "3046|5699"
+                "days": "188天",
+                "return": "4.07%",
+                "peerAverage": "10.53%",
+                "rank": "3092|5694"
               },
               {
                 "code": "026256",
@@ -316,10 +316,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-12-30",
                 "end": "至今",
-                "days": "185天",
-                "return": "3.42%",
-                "peerAverage": "9.86%",
-                "rank": "3078|5699"
+                "days": "188天",
+                "return": "3.86%",
+                "peerAverage": "10.53%",
+                "rank": "3123|5694"
               },
               {
                 "code": "563590",
@@ -327,10 +327,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-10-27",
                 "end": "至今",
-                "days": "249天",
-                "return": "-8.02%",
-                "peerAverage": "9.07%",
-                "rank": "4108|5487"
+                "days": "252天",
+                "return": "-7.59%",
+                "peerAverage": "9.71%",
+                "rank": "4210|5482"
               },
               {
                 "code": "021103",
@@ -338,10 +338,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-04-03",
                 "end": "至今",
-                "days": "2年又91天",
-                "return": "41.99%",
-                "peerAverage": "63.30%",
-                "rank": "1866|3521"
+                "days": "2年又94天",
+                "return": "42.81%",
+                "peerAverage": "64.03%",
+                "rank": "1879|3517"
               },
               {
                 "code": "015235",
@@ -349,10 +349,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "混合型-偏债",
                 "start": "2022-11-08",
                 "end": "至今",
-                "days": "3年又238天",
-                "return": "29.66%",
-                "peerAverage": "32.74%",
-                "rank": "2323|6252"
+                "days": "3年又241天",
+                "return": "29.53%",
+                "peerAverage": "33.39%",
+                "rank": "2372|6255"
               },
               {
                 "code": "015236",
@@ -360,10 +360,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "混合型-偏债",
                 "start": "2022-11-08",
                 "end": "至今",
-                "days": "3年又238天",
-                "return": "27.31%",
-                "peerAverage": "32.74%",
-                "rank": "2467|6252"
+                "days": "3年又241天",
+                "return": "27.19%",
+                "peerAverage": "33.39%",
+                "rank": "2525|6255"
               },
               {
                 "code": "012663",
@@ -371,10 +371,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2022-02-25",
                 "end": "至今",
-                "days": "4年又129天",
-                "return": "25.82%",
-                "peerAverage": "22.87%",
-                "rank": "893|2389"
+                "days": "4年又132天",
+                "return": "26.76%",
+                "peerAverage": "23.47%",
+                "rank": "886|2387"
               },
               {
                 "code": "012664",
@@ -382,10 +382,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2022-02-25",
                 "end": "至今",
-                "days": "4年又129天",
-                "return": "24.73%",
-                "peerAverage": "22.87%",
-                "rank": "921|2389"
+                "days": "4年又132天",
+                "return": "25.66%",
+                "peerAverage": "23.47%",
+                "rank": "915|2387"
               }
             ]
           },
@@ -413,16 +413,16 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "1.00",
             "rate": "0.10",
             "minBuy": "10",
-            "return1m": "-2.26",
-            "return3m": "6.8",
-            "return6m": "3.56",
-            "return1y": "16.77"
+            "return1m": "-1.36",
+            "return3m": "9.4",
+            "return6m": "5.08",
+            "return1y": "17.85"
           },
           "manager": {
             "managers": [
               {
                 "name": "吴中昊",
-                "profile": "吴中昊的信息。\" /> 收藏本站 | 安全登录 | | 安全退出 免费开户 忘记密码 | 手机客户端 <div id=\"float_phone\" class=\"float_phone dropdown-me",
+                "profile": "吴中昊的信息。\" /> 基金档案 基 金 基 金 基金经理 <li class=\"noborder\" data-selec",
                 "dates": []
               }
             ],
@@ -433,10 +433,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-12-12",
                 "end": "至今",
-                "days": "1年又203天",
-                "return": "24.64%",
-                "peerAverage": "39.62%",
-                "rank": "2207|4126"
+                "days": "1年又206天",
+                "return": "25.35%",
+                "peerAverage": "40.36%",
+                "rank": "2230|4122"
               },
               {
                 "code": "561380",
@@ -444,10 +444,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-12-11",
                 "end": "至今",
-                "days": "1年又204天",
-                "return": "112.30%",
-                "peerAverage": "40.76%",
-                "rank": "417|4115"
+                "days": "1年又207天",
+                "return": "114.18%",
+                "peerAverage": "41.50%",
+                "rank": "399|4111"
               },
               {
                 "code": "517090",
@@ -455,10 +455,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-12-06",
                 "end": "至今",
-                "days": "1年又209天",
-                "return": "-5.56%",
-                "peerAverage": "41.48%",
-                "rank": "3678|4139"
+                "days": "1年又212天",
+                "return": "-4.61%",
+                "peerAverage": "42.24%",
+                "rank": "3670|4135"
               },
               {
                 "code": "021101",
@@ -466,10 +466,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-11-19",
                 "end": "至今",
-                "days": "1年又226天",
-                "return": "6.71%",
-                "peerAverage": "42.72%",
-                "rank": "3037|4039"
+                "days": "1年又229天",
+                "return": "8.41%",
+                "peerAverage": "43.50%",
+                "rank": "3012|4035"
               },
               {
                 "code": "021102",
@@ -477,10 +477,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-11-19",
                 "end": "至今",
-                "days": "1年又226天",
-                "return": "6.37%",
-                "peerAverage": "42.72%",
-                "rank": "3061|4039"
+                "days": "1年又229天",
+                "return": "8.06%",
+                "peerAverage": "43.50%",
+                "rank": "3023|4035"
               },
               {
                 "code": "159551",
@@ -488,10 +488,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2023-11-08",
                 "end": "至今",
-                "days": "2年又238天",
-                "return": "45.81%",
-                "peerAverage": "52.41%",
-                "rank": "1373|3173"
+                "days": "2年又241天",
+                "return": "54.75%",
+                "peerAverage": "53.08%",
+                "rank": "1164|3169"
               },
               {
                 "code": "159519",
@@ -499,9 +499,9 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-海外股票",
                 "start": "2023-08-23",
                 "end": "至今",
-                "days": "2年又315天",
-                "return": "64.09%",
-                "peerAverage": "17.87%",
+                "days": "2年又318天",
+                "return": "65.06%",
+                "peerAverage": "19.93%",
                 "rank": "7|92"
               },
               {
@@ -510,10 +510,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2023-06-14",
                 "end": "至今",
-                "days": "3年又20天",
-                "return": "90.05%",
-                "peerAverage": "40.43%",
-                "rank": "365|2933"
+                "days": "3年又23天",
+                "return": "90.15%",
+                "peerAverage": "41.16%",
+                "rank": "359|2930"
               }
             ]
           },
@@ -541,16 +541,16 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "1.20",
             "rate": "0.12",
             "minBuy": "10",
-            "return1m": "4.83",
-            "return3m": "14.39",
-            "return6m": "16.32",
-            "return1y": "46.52"
+            "return1m": "4.92",
+            "return3m": "16.04",
+            "return6m": "16.98",
+            "return1y": "46.64"
           },
           "manager": {
             "managers": [
               {
                 "name": "李直",
-                "profile": "李直的信息。\" /> 基金档案 基 金 基 金 基金经理 <li class=\"noborder\" data-select",
+                "profile": "李直的信息。\" /> 收藏本站 | 安全登录 | | 安全退出 免费开户 忘记密码 | 手机客户端 <div id=\"float_phone\" class=\"float_phone dropdown-men",
                 "dates": []
               }
             ],
@@ -561,10 +561,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-11-19",
                 "end": "至今",
-                "days": "226天",
-                "return": "3.13%",
-                "peerAverage": "12.89%",
-                "rank": "3157|5576"
+                "days": "229天",
+                "return": "1.56%",
+                "peerAverage": "13.55%",
+                "rank": "3367|5571"
               },
               {
                 "code": "024702",
@@ -572,10 +572,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-09-30",
                 "end": "至今",
-                "days": "276天",
-                "return": "-24.11%",
-                "peerAverage": "9.25%",
-                "rank": "5165|5507"
+                "days": "279天",
+                "return": "-21.28%",
+                "peerAverage": "9.88%",
+                "rank": "5091|5502"
               },
               {
                 "code": "024703",
@@ -583,10 +583,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-09-30",
                 "end": "至今",
-                "days": "276天",
-                "return": "-24.26%",
-                "peerAverage": "9.25%",
-                "rank": "5170|5507"
+                "days": "279天",
+                "return": "-21.44%",
+                "peerAverage": "9.88%",
+                "rank": "5097|5502"
               },
               {
                 "code": "022915",
@@ -594,10 +594,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-12-13",
                 "end": "至今",
-                "days": "1年又202天",
-                "return": "47.63%",
-                "peerAverage": "42.52%",
-                "rank": "1364|4258"
+                "days": "1年又205天",
+                "return": "48.46%",
+                "peerAverage": "43.28%",
+                "rank": "1395|4254"
               },
               {
                 "code": "020766",
@@ -605,10 +605,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-08-26",
                 "end": "至今",
-                "days": "1年又311天",
-                "return": "48.07%",
-                "peerAverage": "81.61%",
-                "rank": "2216|3844"
+                "days": "1年又314天",
+                "return": "48.75%",
+                "peerAverage": "82.45%",
+                "rank": "2232|3840"
               },
               {
                 "code": "020767",
@@ -616,10 +616,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-08-26",
                 "end": "至今",
-                "days": "1年又311天",
-                "return": "47.43%",
-                "peerAverage": "81.61%",
-                "rank": "2251|3844"
+                "days": "1年又314天",
+                "return": "48.10%",
+                "peerAverage": "82.45%",
+                "rank": "2268|3840"
               },
               {
                 "code": "021867",
@@ -627,10 +627,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-07-18",
                 "end": "至今",
-                "days": "1年又350天",
-                "return": "166.53%",
-                "peerAverage": "69.32%",
-                "rank": "377|3762"
+                "days": "1年又353天",
+                "return": "166.27%",
+                "peerAverage": "70.14%",
+                "rank": "377|3758"
               },
               {
                 "code": "021887",
@@ -638,10 +638,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-07-18",
                 "end": "至今",
-                "days": "1年又350天",
-                "return": "76.21%",
-                "peerAverage": "69.32%",
-                "rank": "1308|3762"
+                "days": "1年又353天",
+                "return": "77.21%",
+                "peerAverage": "70.14%",
+                "rank": "1315|3758"
               }
             ]
           },
@@ -682,10 +682,10 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "1.00",
             "rate": "0.10",
             "minBuy": "10",
-            "return1m": "-13.81",
-            "return3m": "-5.48",
-            "return6m": "-21.6",
-            "return1y": "-19.43"
+            "return1m": "-10.7",
+            "return3m": "-4.72",
+            "return6m": "-20.9",
+            "return1y": "-18.17"
           },
           "manager": {
             "managers": [
@@ -707,10 +707,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-海外股票",
                 "start": "2025-09-22",
                 "end": "至今",
-                "days": "284天",
-                "return": "-33.60%",
-                "peerAverage": "-18.62%",
-                "rank": "140|153"
+                "days": "287天",
+                "return": "-32.98%",
+                "peerAverage": "-17.17%",
+                "rank": "141|153"
               },
               {
                 "code": "024754",
@@ -718,10 +718,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-07-02",
                 "end": "至今",
-                "days": "1年又1天",
-                "return": "-5.20%",
-                "peerAverage": "39.08%",
-                "rank": "4213|4964"
+                "days": "1年又4天",
+                "return": "-3.96%",
+                "peerAverage": "39.72%",
+                "rank": "4190|4959"
               },
               {
                 "code": "022523",
@@ -729,10 +729,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "QDII-FOF",
                 "start": "2024-11-01",
                 "end": "至今",
-                "days": "1年又244天",
-                "return": "22.41%",
-                "peerAverage": "33.86%",
-                "rank": "329|618"
+                "days": "1年又247天",
+                "return": "22.28%",
+                "peerAverage": "31.77%",
+                "rank": "340|633"
               },
               {
                 "code": "022524",
@@ -740,10 +740,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "QDII-普通股票",
                 "start": "2024-11-01",
                 "end": "至今",
-                "days": "1年又244天",
-                "return": "11.57%",
-                "peerAverage": "33.86%",
-                "rank": "396|618"
+                "days": "1年又247天",
+                "return": "11.39%",
+                "peerAverage": "31.77%",
+                "rank": "408|633"
               },
               {
                 "code": "022525",
@@ -751,10 +751,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-海外股票",
                 "start": "2024-11-01",
                 "end": "至今",
-                "days": "1年又244天",
-                "return": "39.46%",
-                "peerAverage": "33.86%",
-                "rank": "181|618"
+                "days": "1年又247天",
+                "return": "37.35%",
+                "peerAverage": "31.77%",
+                "rank": "198|633"
               },
               {
                 "code": "022072",
@@ -762,10 +762,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-09-24",
                 "end": "至今",
-                "days": "1年又282天",
-                "return": "13.19%",
-                "peerAverage": "78.51%",
-                "rank": "3332|3896"
+                "days": "1年又285天",
+                "return": "14.67%",
+                "peerAverage": "79.33%",
+                "rank": "3322|3892"
               },
               {
                 "code": "022073",
@@ -773,10 +773,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-09-24",
                 "end": "至今",
-                "days": "1年又282天",
-                "return": "12.96%",
-                "peerAverage": "78.51%",
-                "rank": "3342|3896"
+                "days": "1年又285天",
+                "return": "14.44%",
+                "peerAverage": "79.33%",
+                "rank": "3336|3892"
               },
               {
                 "code": "016823",
@@ -784,10 +784,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "QDII-普通股票",
                 "start": "2023-06-06",
                 "end": "至今",
-                "days": "3年又28天",
-                "return": "153.67%",
-                "peerAverage": "52.56%",
-                "rank": "24|447"
+                "days": "3年又31天",
+                "return": "131.55%",
+                "peerAverage": "50.32%",
+                "rank": "27|458"
               }
             ]
           },
@@ -816,10 +816,10 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "1.20",
             "rate": "0.12",
             "minBuy": "10",
-            "return1m": "-14.12",
-            "return3m": "-5.65",
-            "return6m": "-21.58",
-            "return1y": "-19.29"
+            "return1m": "-10.93",
+            "return3m": "-4.88",
+            "return6m": "-20.87",
+            "return1y": "-18.02"
           },
           "manager": {
             "managers": [
@@ -836,10 +836,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-01-20",
                 "end": "至今",
-                "days": "1年又164天",
-                "return": "5.00%",
-                "peerAverage": "47.03%",
-                "rank": "3537|4325"
+                "days": "1年又167天",
+                "return": "6.70%",
+                "peerAverage": "47.81%",
+                "rank": "3506|4321"
               },
               {
                 "code": "022720",
@@ -847,10 +847,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-01-20",
                 "end": "至今",
-                "days": "1年又164天",
-                "return": "4.70%",
-                "peerAverage": "47.03%",
-                "rank": "3560|4325"
+                "days": "1年又167天",
+                "return": "6.40%",
+                "peerAverage": "47.81%",
+                "rank": "3519|4321"
               },
               {
                 "code": "563800",
@@ -858,10 +858,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-01-07",
                 "end": "至今",
-                "days": "1年又177天",
-                "return": "42.01%",
-                "peerAverage": "50.39%",
-                "rank": "1956|4293"
+                "days": "1年又180天",
+                "return": "42.99%",
+                "peerAverage": "51.19%",
+                "rank": "1976|4289"
               },
               {
                 "code": "022964",
@@ -869,10 +869,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-12-13",
                 "end": "至今",
-                "days": "1年又202天",
-                "return": "24.06%",
-                "peerAverage": "42.52%",
-                "rank": "2487|4258"
+                "days": "1年又205天",
+                "return": "24.81%",
+                "peerAverage": "43.28%",
+                "rank": "2486|4254"
               },
               {
                 "code": "021948",
@@ -880,10 +880,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-09-27",
                 "end": "至今",
-                "days": "1年又279天",
-                "return": "37.36%",
-                "peerAverage": "62.00%",
-                "rank": "2016|3929"
+                "days": "1年又282天",
+                "return": "41.83%",
+                "peerAverage": "62.75%",
+                "rank": "1938|3925"
               },
               {
                 "code": "022106",
@@ -891,10 +891,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-09-27",
                 "end": "至今",
-                "days": "1年又279天",
-                "return": "152.45%",
-                "peerAverage": "62.00%",
-                "rank": "442|3929"
+                "days": "1年又282天",
+                "return": "151.98%",
+                "peerAverage": "62.75%",
+                "rank": "441|3925"
               },
               {
                 "code": "021944",
@@ -902,10 +902,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-09-04",
                 "end": "至今",
-                "days": "1年又302天",
-                "return": "24.53%",
-                "peerAverage": "82.23%",
-                "rank": "3058|3863"
+                "days": "1年又305天",
+                "return": "25.54%",
+                "peerAverage": "83.07%",
+                "rank": "3054|3859"
               },
               {
                 "code": "022005",
@@ -913,9 +913,9 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-海外股票",
                 "start": "2024-09-04",
                 "end": "至今",
-                "days": "1年又302天",
-                "return": "17.35%",
-                "peerAverage": "34.56%",
+                "days": "1年又305天",
+                "return": "18.41%",
+                "peerAverage": "37.10%",
                 "rank": "100|125"
               }
             ]
@@ -944,10 +944,10 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "1.50",
             "rate": "0.15",
             "minBuy": "10",
-            "return1m": "-9.92",
-            "return3m": "-8.38",
-            "return6m": "-10.68",
-            "return1y": "-3.01"
+            "return1m": "-7.8",
+            "return3m": "-6.61",
+            "return6m": "-9.1",
+            "return1y": "-1.79"
           },
           "manager": {
             "managers": [
@@ -964,10 +964,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "混合型-偏股",
                 "start": "2026-05-26",
                 "end": "至今",
-                "days": "38天",
+                "days": "41天",
                 "return": "--",
-                "peerAverage": "-0.12%",
-                "rank": "-|9159"
+                "peerAverage": "0.44%",
+                "rank": "-|9178"
               },
               {
                 "code": "026695",
@@ -975,10 +975,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "混合型-偏股",
                 "start": "2026-05-26",
                 "end": "至今",
-                "days": "38天",
+                "days": "41天",
                 "return": "--",
-                "peerAverage": "-0.12%",
-                "rank": "-|9159"
+                "peerAverage": "0.44%",
+                "rank": "-|9178"
               },
               {
                 "code": "025057",
@@ -986,10 +986,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "混合型-偏股",
                 "start": "2025-08-15",
                 "end": "至今",
-                "days": "322天",
-                "return": "-7.29%",
-                "peerAverage": "25.32%",
-                "rank": "7505|8511"
+                "days": "325天",
+                "return": "-6.26%",
+                "peerAverage": "25.92%",
+                "rank": "7550|8573"
               },
               {
                 "code": "011779",
@@ -997,10 +997,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "混合型-偏债",
                 "start": "2025-07-29",
                 "end": "至今",
-                "days": "339天",
-                "return": "0.33%",
-                "peerAverage": "29.44%",
-                "rank": "6611|8370"
+                "days": "342天",
+                "return": "0.75%",
+                "peerAverage": "30.04%",
+                "rank": "6615|8376"
               },
               {
                 "code": "011780",
@@ -1008,10 +1008,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "混合型-偏债",
                 "start": "2025-07-29",
                 "end": "至今",
-                "days": "339天",
-                "return": "0.01%",
-                "peerAverage": "29.44%",
-                "rank": "6662|8370"
+                "days": "342天",
+                "return": "0.43%",
+                "peerAverage": "30.04%",
+                "rank": "6705|8376"
               },
               {
                 "code": "024919",
@@ -1019,10 +1019,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "混合型-灵活",
                 "start": "2025-07-23",
                 "end": "至今",
-                "days": "345天",
-                "return": "-10.75%",
-                "peerAverage": "32.63%",
-                "rank": "7782|8354"
+                "days": "348天",
+                "return": "-9.18%",
+                "peerAverage": "33.25%",
+                "rank": "7761|8358"
               }
             ]
           },
@@ -1049,16 +1049,16 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "1.20",
             "rate": "0.12",
             "minBuy": "10",
-            "return1m": "-10.54",
-            "return3m": "-10.52",
-            "return6m": "-6.57",
-            "return1y": "-4.5"
+            "return1m": "-8.71",
+            "return3m": "-9.45",
+            "return6m": "-5.38",
+            "return1y": "-3.47"
           },
           "manager": {
             "managers": [
               {
                 "name": "李茜",
-                "profile": "李茜的信息。\" /> 收藏本站 | 安全登录 | | 安全退出 免费开户 忘记密码 | 手机客户端 <div id=\"float_phone\" class=\"float_phone dropdown-men",
+                "profile": "李茜的信息。\" /> 基金档案 基 金 基 金 基金经理 <li class=\"noborder\" data-select",
                 "dates": []
               }
             ],
@@ -1069,7 +1069,7 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2026-06-01",
                 "end": "至今",
-                "days": "32天",
+                "days": "35天",
                 "return": "",
                 "peerAverage": "",
                 "rank": "-|-"
@@ -1080,7 +1080,7 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2026-06-01",
                 "end": "至今",
-                "days": "32天",
+                "days": "35天",
                 "return": "",
                 "peerAverage": "",
                 "rank": "-|-"
@@ -1091,10 +1091,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2026-05-22",
                 "end": "至今",
-                "days": "42天",
+                "days": "45天",
                 "return": "--",
-                "peerAverage": "-0.89%",
-                "rank": "-|6220"
+                "peerAverage": "-0.16%",
+                "rank": "-|6223"
               },
               {
                 "code": "560400",
@@ -1102,10 +1102,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2026-03-09",
                 "end": "至今",
-                "days": "116天",
+                "days": "119天",
                 "return": "--",
-                "peerAverage": "6.35%",
-                "rank": "-|5958"
+                "peerAverage": "7.02%",
+                "rank": "-|5953"
               },
               {
                 "code": "025937",
@@ -1113,10 +1113,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-11-13",
                 "end": "至今",
-                "days": "232天",
-                "return": "-16.31%",
-                "peerAverage": "9.73%",
-                "rank": "4876|5556"
+                "days": "235天",
+                "return": "-15.09%",
+                "peerAverage": "10.37%",
+                "rank": "4866|5551"
               },
               {
                 "code": "025938",
@@ -1124,10 +1124,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-11-13",
                 "end": "至今",
-                "days": "232天",
-                "return": "-16.41%",
-                "peerAverage": "9.73%",
-                "rank": "4884|5556"
+                "days": "235天",
+                "return": "-15.19%",
+                "peerAverage": "10.37%",
+                "rank": "4876|5551"
               },
               {
                 "code": "551510",
@@ -1135,10 +1135,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-固收",
                 "start": "2025-09-17",
                 "end": "至今",
-                "days": "289天",
+                "days": "292天",
                 "return": "2.06%",
-                "peerAverage": "2.24%",
-                "rank": "1958|5769"
+                "peerAverage": "2.27%",
+                "rank": "1977|5771"
               },
               {
                 "code": "023179",
@@ -1189,10 +1189,10 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "1.20",
             "rate": "0.12",
             "minBuy": "10",
-            "return1m": "-2.68",
-            "return3m": "21.0",
-            "return6m": "13.17",
-            "return1y": "24.21"
+            "return1m": "-4.74",
+            "return3m": "19.12",
+            "return6m": "11.33",
+            "return1y": "21.31"
           },
           "manager": {
             "managers": [
@@ -1209,10 +1209,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-海外股票",
                 "start": "2025-06-24",
                 "end": "至今",
-                "days": "1年又9天",
-                "return": "-16.37%",
-                "peerAverage": "-5.07%",
-                "rank": "79|147"
+                "days": "1年又12天",
+                "return": "-12.76%",
+                "peerAverage": "-3.31%",
+                "rank": "66|147"
               },
               {
                 "code": "024056",
@@ -1220,10 +1220,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-海外股票",
                 "start": "2025-06-24",
                 "end": "至今",
-                "days": "1年又9天",
-                "return": "-16.54%",
-                "peerAverage": "-5.07%",
-                "rank": "84|147"
+                "days": "1年又12天",
+                "return": "-12.94%",
+                "peerAverage": "-3.31%",
+                "rank": "67|147"
               },
               {
                 "code": "159303",
@@ -1231,10 +1231,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-海外股票",
                 "start": "2024-06-18",
                 "end": "至今",
-                "days": "2年又15天",
-                "return": "41.07%",
-                "peerAverage": "29.77%",
-                "rank": "28|120"
+                "days": "2年又18天",
+                "return": "47.52%",
+                "peerAverage": "32.27%",
+                "rank": "26|120"
               },
               {
                 "code": "008751",
@@ -1242,10 +1242,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "QDII-纯债",
                 "start": "2024-05-29",
                 "end": "至今",
-                "days": "2年又35天",
-                "return": "2.97%",
-                "peerAverage": "42.25%",
-                "rank": "516|584"
+                "days": "2年又38天",
+                "return": "2.99%",
+                "peerAverage": "40.02%",
+                "rank": "529|598"
               },
               {
                 "code": "008752",
@@ -1253,10 +1253,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "QDII-纯债",
                 "start": "2024-05-29",
                 "end": "至今",
-                "days": "2年又35天",
-                "return": "2.02%",
-                "peerAverage": "42.25%",
-                "rank": "527|584"
+                "days": "2年又38天",
+                "return": "2.04%",
+                "peerAverage": "40.02%",
+                "rank": "544|598"
               },
               {
                 "code": "011940",
@@ -1264,10 +1264,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "QDII-纯债",
                 "start": "2024-05-29",
                 "end": "至今",
-                "days": "2年又35天",
+                "days": "2年又38天",
                 "return": "7.56%",
-                "peerAverage": "42.25%",
-                "rank": "465|584"
+                "peerAverage": "40.02%",
+                "rank": "479|598"
               },
               {
                 "code": "011941",
@@ -1275,10 +1275,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "QDII-纯债",
                 "start": "2024-05-29",
                 "end": "至今",
-                "days": "2年又35天",
+                "days": "2年又38天",
                 "return": "6.56%",
-                "peerAverage": "42.25%",
-                "rank": "478|584"
+                "peerAverage": "40.02%",
+                "rank": "492|598"
               },
               {
                 "code": "015546",
@@ -1286,10 +1286,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-海外股票",
                 "start": "2023-09-15",
                 "end": "至今",
-                "days": "2年又292天",
-                "return": "21.73%",
-                "peerAverage": "15.91%",
-                "rank": "29|95"
+                "days": "2年又295天",
+                "return": "23.12%",
+                "peerAverage": "17.90%",
+                "rank": "30|95"
               }
             ]
           },
@@ -1317,16 +1317,16 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "",
             "rate": "",
             "minBuy": "1",
-            "return1m": "-2.48",
-            "return3m": "23.65",
-            "return6m": "17.48",
-            "return1y": "31.01"
+            "return1m": "-4.56",
+            "return3m": "21.45",
+            "return6m": "15.53",
+            "return1y": "27.93"
           },
           "manager": {
             "managers": [
               {
                 "name": "刘杰",
-                "profile": "刘杰的信息。\" /> 收藏本站 | 安全登录 | | 安全退出 免费开户 忘记密码 | 手机客户端 <div id=\"float_phone\" class=\"float_phone dropdown-men",
+                "profile": "刘杰的信息。\" /> 基金档案 基 金 基 金 基金经理 <li class=\"noborder\" data-select",
                 "dates": []
               }
             ],
@@ -1337,10 +1337,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-07-11",
                 "end": "至今",
-                "days": "357天",
-                "return": "-9.38%",
-                "peerAverage": "36.24%",
-                "rank": "4433|5060"
+                "days": "360天",
+                "return": "-7.91%",
+                "peerAverage": "36.88%",
+                "rank": "4412|5055"
               },
               {
                 "code": "024381",
@@ -1348,10 +1348,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-07-02",
                 "end": "至今",
-                "days": "1年又1天",
-                "return": "-12.78%",
-                "peerAverage": "39.08%",
-                "rank": "4613|4964"
+                "days": "1年又4天",
+                "return": "-9.61%",
+                "peerAverage": "39.72%",
+                "rank": "4471|4959"
               },
               {
                 "code": "024382",
@@ -1359,10 +1359,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-07-02",
                 "end": "至今",
-                "days": "1年又1天",
-                "return": "-13.05%",
-                "peerAverage": "39.08%",
-                "rank": "4620|4964"
+                "days": "1年又4天",
+                "return": "-9.88%",
+                "peerAverage": "39.72%",
+                "rank": "4489|4959"
               },
               {
                 "code": "520600",
@@ -1370,10 +1370,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-12-19",
                 "end": "至今",
-                "days": "1年又196天",
-                "return": "1.57%",
-                "peerAverage": "43.09%",
-                "rank": "3457|4232"
+                "days": "1年又199天",
+                "return": "5.44%",
+                "peerAverage": "43.86%",
+                "rank": "3297|4228"
               },
               {
                 "code": "022896",
@@ -1381,10 +1381,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-12-13",
                 "end": "至今",
-                "days": "1年又202天",
-                "return": "76.33%",
-                "peerAverage": "42.52%",
-                "rank": "809|4258"
+                "days": "1年又205天",
+                "return": "76.41%",
+                "peerAverage": "43.28%",
+                "rank": "819|4254"
               },
               {
                 "code": "022965",
@@ -1392,10 +1392,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-12-13",
                 "end": "至今",
-                "days": "1年又202天",
-                "return": "46.25%",
-                "peerAverage": "42.52%",
-                "rank": "1422|4258"
+                "days": "1年又205天",
+                "return": "47.08%",
+                "peerAverage": "43.28%",
+                "rank": "1445|4254"
               },
               {
                 "code": "021739",
@@ -1403,10 +1403,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-08-14",
                 "end": "至今",
-                "days": "1年又323天",
-                "return": "146.88%",
-                "peerAverage": "79.35%",
-                "rank": "596|3804"
+                "days": "1年又326天",
+                "return": "146.99%",
+                "peerAverage": "80.19%",
+                "rank": "597|3800"
               },
               {
                 "code": "021778",
@@ -1414,10 +1414,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-海外股票",
                 "start": "2024-08-14",
                 "end": "至今",
-                "days": "1年又323天",
-                "return": "44.45%",
-                "peerAverage": "44.12%",
-                "rank": "221|607"
+                "days": "1年又326天",
+                "return": "42.10%",
+                "peerAverage": "41.86%",
+                "rank": "229|622"
               }
             ]
           },
@@ -1456,10 +1456,10 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "1.20",
             "rate": "0.12",
             "minBuy": "10",
-            "return1m": "2.71",
-            "return3m": "38.69",
-            "return6m": "30.42",
-            "return1y": "106.43"
+            "return1m": "0.06",
+            "return3m": "38.38",
+            "return6m": "31.02",
+            "return1y": "105.55"
           },
           "manager": {
             "managers": [
@@ -1476,10 +1476,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-11-06",
                 "end": "至今",
-                "days": "239天",
-                "return": "-7.66%",
-                "peerAverage": "9.71%",
-                "rank": "4036|5530"
+                "days": "242天",
+                "return": "-9.05%",
+                "peerAverage": "10.35%",
+                "rank": "4405|5525"
               },
               {
                 "code": "024943",
@@ -1487,10 +1487,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-10-31",
                 "end": "至今",
-                "days": "245天",
-                "return": "23.03%",
-                "peerAverage": "10.52%",
-                "rank": "1257|5583"
+                "days": "248天",
+                "return": "22.58%",
+                "peerAverage": "11.16%",
+                "rank": "1308|5578"
               },
               {
                 "code": "024944",
@@ -1498,10 +1498,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-10-31",
                 "end": "至今",
-                "days": "245天",
-                "return": "22.86%",
-                "peerAverage": "10.52%",
-                "rank": "1266|5583"
+                "days": "248天",
+                "return": "22.41%",
+                "peerAverage": "11.16%",
+                "rank": "1319|5578"
               },
               {
                 "code": "530530",
@@ -1509,10 +1509,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-08-20",
                 "end": "至今",
-                "days": "317天",
-                "return": "30.58%",
-                "peerAverage": "21.67%",
-                "rank": "1464|5195"
+                "days": "320天",
+                "return": "30.09%",
+                "peerAverage": "22.28%",
+                "rank": "1561|5190"
               },
               {
                 "code": "024629",
@@ -1520,10 +1520,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-06-24",
                 "end": "至今",
-                "days": "1年又9天",
-                "return": "43.65%",
-                "peerAverage": "41.44%",
-                "rank": "1839|4910"
+                "days": "1年又12天",
+                "return": "45.50%",
+                "peerAverage": "42.09%",
+                "rank": "1786|4905"
               },
               {
                 "code": "024642",
@@ -1531,10 +1531,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-06-24",
                 "end": "至今",
-                "days": "1年又9天",
-                "return": "-14.64%",
-                "peerAverage": "41.44%",
-                "rank": "4686|4910"
+                "days": "1年又12天",
+                "return": "-14.68%",
+                "peerAverage": "42.09%",
+                "rank": "4704|4905"
               },
               {
                 "code": "023765",
@@ -1542,10 +1542,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-04-03",
                 "end": "至今",
-                "days": "1年又91天",
-                "return": "279.96%",
-                "peerAverage": "42.89%",
-                "rank": "9|4641"
+                "days": "1年又94天",
+                "return": "284.59%",
+                "peerAverage": "43.57%",
+                "rank": "7|4636"
               },
               {
                 "code": "020291",
@@ -1584,10 +1584,10 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "0.00",
             "rate": "0.00",
             "minBuy": "10",
-            "return1m": "2.68",
-            "return3m": "38.59",
-            "return6m": "30.22",
-            "return1y": "105.81"
+            "return1m": "0.04",
+            "return3m": "38.27",
+            "return6m": "30.83",
+            "return1y": "104.93"
           },
           "manager": {
             "managers": [
@@ -1604,10 +1604,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-11-06",
                 "end": "至今",
-                "days": "239天",
-                "return": "-7.66%",
-                "peerAverage": "9.71%",
-                "rank": "4036|5530"
+                "days": "242天",
+                "return": "-9.05%",
+                "peerAverage": "10.35%",
+                "rank": "4405|5525"
               },
               {
                 "code": "024943",
@@ -1615,10 +1615,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-10-31",
                 "end": "至今",
-                "days": "245天",
-                "return": "23.03%",
-                "peerAverage": "10.52%",
-                "rank": "1257|5583"
+                "days": "248天",
+                "return": "22.58%",
+                "peerAverage": "11.16%",
+                "rank": "1308|5578"
               },
               {
                 "code": "024944",
@@ -1626,10 +1626,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-10-31",
                 "end": "至今",
-                "days": "245天",
-                "return": "22.86%",
-                "peerAverage": "10.52%",
-                "rank": "1266|5583"
+                "days": "248天",
+                "return": "22.41%",
+                "peerAverage": "11.16%",
+                "rank": "1319|5578"
               },
               {
                 "code": "530530",
@@ -1637,10 +1637,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-08-20",
                 "end": "至今",
-                "days": "317天",
-                "return": "30.58%",
-                "peerAverage": "21.67%",
-                "rank": "1464|5195"
+                "days": "320天",
+                "return": "30.09%",
+                "peerAverage": "22.28%",
+                "rank": "1561|5190"
               },
               {
                 "code": "024629",
@@ -1648,10 +1648,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-06-24",
                 "end": "至今",
-                "days": "1年又9天",
-                "return": "43.65%",
-                "peerAverage": "41.44%",
-                "rank": "1839|4910"
+                "days": "1年又12天",
+                "return": "45.50%",
+                "peerAverage": "42.09%",
+                "rank": "1786|4905"
               },
               {
                 "code": "024642",
@@ -1659,10 +1659,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-06-24",
                 "end": "至今",
-                "days": "1年又9天",
-                "return": "-14.64%",
-                "peerAverage": "41.44%",
-                "rank": "4686|4910"
+                "days": "1年又12天",
+                "return": "-14.68%",
+                "peerAverage": "42.09%",
+                "rank": "4704|4905"
               },
               {
                 "code": "023765",
@@ -1670,10 +1670,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-04-03",
                 "end": "至今",
-                "days": "1年又91天",
-                "return": "279.96%",
-                "peerAverage": "42.89%",
-                "rank": "9|4641"
+                "days": "1年又94天",
+                "return": "284.59%",
+                "peerAverage": "43.57%",
+                "rank": "7|4636"
               },
               {
                 "code": "020291",
@@ -1712,16 +1712,16 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "1.20",
             "rate": "0.12",
             "minBuy": "10",
-            "return1m": "-5.64",
-            "return3m": "5.08",
-            "return6m": "0.68",
-            "return1y": "42.95"
+            "return1m": "-5.74",
+            "return3m": "4.84",
+            "return6m": "0.65",
+            "return1y": "41.73"
           },
           "manager": {
             "managers": [
               {
                 "name": "张湛",
-                "profile": "张湛的信息。\" /> 基金档案 基 金 基 金 基金经理 <li class=\"noborder\" data-select",
+                "profile": "张湛的信息。\" /> 收藏本站 | 安全登录 | | 安全退出 免费开户 忘记密码 | 手机客户端 <div id=\"float_phone\" class=\"float_phone dropdown-men",
                 "dates": []
               }
             ],
@@ -1732,10 +1732,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2026-03-18",
                 "end": "至今",
-                "days": "107天",
+                "days": "110天",
                 "return": "--",
-                "peerAverage": "6.32%",
-                "rank": "-|5984"
+                "peerAverage": "7.00%",
+                "rank": "-|5979"
               },
               {
                 "code": "000307",
@@ -1743,10 +1743,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-其他",
                 "start": "2025-12-20",
                 "end": "至今",
-                "days": "195天",
-                "return": "-9.23%",
-                "peerAverage": "14.11%",
-                "rank": "7908|8750"
+                "days": "198天",
+                "return": "-6.81%",
+                "peerAverage": "14.68%",
+                "rank": "7728|8751"
               },
               {
                 "code": "002963",
@@ -1754,10 +1754,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-其他",
                 "start": "2025-12-20",
                 "end": "至今",
-                "days": "195天",
-                "return": "-9.40%",
-                "peerAverage": "14.11%",
-                "rank": "7936|8750"
+                "days": "198天",
+                "return": "-6.98%",
+                "peerAverage": "14.68%",
+                "rank": "7771|8751"
               },
               {
                 "code": "159934",
@@ -1765,10 +1765,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-其他",
                 "start": "2025-12-20",
                 "end": "至今",
-                "days": "195天",
-                "return": "-9.38%",
-                "peerAverage": "14.11%",
-                "rank": "7939|8750"
+                "days": "198天",
+                "return": "-6.93%",
+                "peerAverage": "14.68%",
+                "rank": "7765|8751"
               },
               {
                 "code": "512570",
@@ -1776,10 +1776,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-12-21",
                 "end": "至今",
-                "days": "1年又194天",
-                "return": "-3.69%",
-                "peerAverage": "44.23%",
-                "rank": "3735|4238"
+                "days": "1年又197天",
+                "return": "-3.10%",
+                "peerAverage": "45.01%",
+                "rank": "3729|4234"
               },
               {
                 "code": "019315",
@@ -1809,10 +1809,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2023-06-13",
                 "end": "至今",
-                "days": "3年又21天",
-                "return": "166.86%",
-                "peerAverage": "40.73%",
-                "rank": "94|2932"
+                "days": "3年又24天",
+                "return": "163.77%",
+                "peerAverage": "41.45%",
+                "rank": "100|2929"
               }
             ]
           },
@@ -1839,10 +1839,10 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "1.00",
             "rate": "0.10",
             "minBuy": "10",
-            "return1m": "-7.38",
-            "return3m": "11.82",
-            "return6m": "5.39",
-            "return1y": "62.72"
+            "return1m": "-8.17",
+            "return3m": "11.15",
+            "return6m": "5.44",
+            "return1y": "61.97"
           },
           "manager": {
             "managers": [
@@ -1859,10 +1859,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2026-06-05",
                 "end": "至今",
-                "days": "28天",
+                "days": "31天",
                 "return": "--",
-                "peerAverage": "2.03%",
-                "rank": "-|6279"
+                "peerAverage": "2.78%",
+                "rank": "-|6292"
               },
               {
                 "code": "027575",
@@ -1870,10 +1870,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2026-06-05",
                 "end": "至今",
-                "days": "28天",
+                "days": "31天",
                 "return": "--",
-                "peerAverage": "2.03%",
-                "rank": "-|6279"
+                "peerAverage": "2.78%",
+                "rank": "-|6292"
               },
               {
                 "code": "589070",
@@ -1881,10 +1881,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2026-01-15",
                 "end": "至今",
-                "days": "169天",
+                "days": "172天",
                 "return": "--",
-                "peerAverage": "3.81%",
-                "rank": "-|5800"
+                "peerAverage": "4.46%",
+                "rank": "-|5795"
               },
               {
                 "code": "159128",
@@ -1892,10 +1892,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-11-21",
                 "end": "至今",
-                "days": "224天",
-                "return": "-28.74%",
-                "peerAverage": "17.21%",
-                "rank": "5629|5674"
+                "days": "227天",
+                "return": "-27.70%",
+                "peerAverage": "17.88%",
+                "rank": "5620|5669"
               },
               {
                 "code": "024885",
@@ -1903,10 +1903,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-09-23",
                 "end": "至今",
-                "days": "283天",
-                "return": "-36.01%",
-                "peerAverage": "11.70%",
-                "rank": "5462|5494"
+                "days": "286天",
+                "return": "-35.11%",
+                "peerAverage": "12.34%",
+                "rank": "5453|5489"
               },
               {
                 "code": "024886",
@@ -1914,10 +1914,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-09-23",
                 "end": "至今",
-                "days": "283天",
-                "return": "-36.16%",
-                "peerAverage": "11.70%",
-                "rank": "5463|5494"
+                "days": "286天",
+                "return": "-35.27%",
+                "peerAverage": "12.34%",
+                "rank": "5455|5489"
               },
               {
                 "code": "011839",
@@ -1925,10 +1925,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-07-30",
                 "end": "至今",
-                "days": "338天",
-                "return": "83.51%",
-                "peerAverage": "29.24%",
-                "rank": "534|5087"
+                "days": "341天",
+                "return": "84.35%",
+                "peerAverage": "29.86%",
+                "rank": "519|5082"
               },
               {
                 "code": "011840",
@@ -1936,10 +1936,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-07-30",
                 "end": "至今",
-                "days": "338天",
-                "return": "83.18%",
-                "peerAverage": "29.24%",
-                "rank": "541|5087"
+                "days": "341天",
+                "return": "84.01%",
+                "peerAverage": "29.86%",
+                "rank": "523|5082"
               }
             ]
           },
@@ -1966,10 +1966,10 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "0.80",
             "rate": "0.08",
             "minBuy": "10",
-            "return1m": "27.8",
-            "return3m": "84.62",
-            "return6m": "78.68",
-            "return1y": "150.61"
+            "return1m": "22.43",
+            "return3m": "82.19",
+            "return6m": "76.23",
+            "return1y": "146.83"
           },
           "manager": {
             "managers": [
@@ -1991,10 +1991,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-11-05",
                 "end": "至今",
-                "days": "240天",
-                "return": "-28.08%",
-                "peerAverage": "11.53%",
-                "rank": "5465|5524"
+                "days": "243天",
+                "return": "-27.76%",
+                "peerAverage": "12.18%",
+                "rank": "5465|5519"
               },
               {
                 "code": "560570",
@@ -2002,10 +2002,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2025-09-10",
                 "end": "至今",
-                "days": "296天",
-                "return": "-5.17%",
-                "peerAverage": "16.50%",
-                "rank": "3898|5297"
+                "days": "299天",
+                "return": "-4.74%",
+                "peerAverage": "17.11%",
+                "rank": "3940|5292"
               },
               {
                 "code": "588780",
@@ -2013,10 +2013,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2024-12-11",
                 "end": "至今",
-                "days": "1年又204天",
-                "return": "154.64%",
-                "peerAverage": "40.76%",
-                "rank": "174|4115"
+                "days": "1年又207天",
+                "return": "154.06%",
+                "peerAverage": "41.50%",
+                "rank": "174|4111"
               },
               {
                 "code": "159670",
@@ -2024,10 +2024,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2023-04-14",
                 "end": "至今",
-                "days": "3年又81天",
-                "return": "-19.03%",
-                "peerAverage": "32.70%",
-                "rank": "2542|2881"
+                "days": "3年又84天",
+                "return": "-18.74%",
+                "peerAverage": "33.39%",
+                "rank": "2547|2878"
               },
               {
                 "code": "159653",
@@ -2035,10 +2035,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2023-03-06",
                 "end": "至今",
-                "days": "3年又120天",
-                "return": "22.72%",
-                "peerAverage": "34.78%",
-                "rank": "1498|2788"
+                "days": "3年又123天",
+                "return": "23.48%",
+                "peerAverage": "35.42%",
+                "rank": "1497|2785"
               },
               {
                 "code": "013893",
@@ -2046,10 +2046,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2022-05-24",
                 "end": "至今",
-                "days": "4年又41天",
-                "return": "68.97%",
-                "peerAverage": "44.00%",
-                "rank": "543|2475"
+                "days": "4年又44天",
+                "return": "68.06%",
+                "peerAverage": "44.64%",
+                "rank": "575|2473"
               },
               {
                 "code": "013894",
@@ -2057,10 +2057,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2022-05-24",
                 "end": "至今",
-                "days": "4年又41天",
-                "return": "66.15%",
-                "peerAverage": "44.00%",
-                "rank": "577|2475"
+                "days": "4年又44天",
+                "return": "65.26%",
+                "peerAverage": "44.64%",
+                "rank": "609|2473"
               },
               {
                 "code": "015577",
@@ -2068,10 +2068,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-股票",
                 "start": "2022-05-13",
                 "end": "至今",
-                "days": "4年又52天",
-                "return": "59.57%",
-                "peerAverage": "43.24%",
-                "rank": "664|2475"
+                "days": "4年又55天",
+                "return": "60.46%",
+                "peerAverage": "43.87%",
+                "rank": "662|2473"
               }
             ]
           },
@@ -2114,9 +2114,9 @@ window.FUND_MANAGER_DATA = {
             "rate": "0.04",
             "minBuy": "10",
             "return1m": "0.02",
-            "return3m": "0.44",
-            "return6m": "1.04",
-            "return1y": "1.59"
+            "return3m": "0.43",
+            "return6m": "1.05",
+            "return1y": "1.57"
           },
           "manager": {
             "managers": [
@@ -2138,10 +2138,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-混合一级",
                 "start": "2025-08-08",
                 "end": "至今",
-                "days": "329天",
-                "return": "0.26%",
-                "peerAverage": "2.52%",
-                "rank": "5392|5739"
+                "days": "332天",
+                "return": "0.18%",
+                "peerAverage": "2.56%",
+                "rank": "5426|5741"
               },
               {
                 "code": "392001",
@@ -2149,8 +2149,8 @@ window.FUND_MANAGER_DATA = {
                 "type": "货币型-普通货币",
                 "start": "2025-04-11",
                 "end": "至今",
-                "days": "1年又83天",
-                "return": "1.10%",
+                "days": "1年又86天",
+                "return": "1.11%",
                 "peerAverage": "1.50%",
                 "rank": "836|876"
               },
@@ -2160,10 +2160,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "货币型-普通货币",
                 "start": "2025-04-11",
                 "end": "至今",
-                "days": "1年又83天",
-                "return": "1.40%",
+                "days": "1年又86天",
+                "return": "1.41%",
                 "peerAverage": "1.50%",
-                "rank": "599|876"
+                "rank": "601|876"
               },
               {
                 "code": "019648",
@@ -2171,10 +2171,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-中短债",
                 "start": "2023-11-03",
                 "end": "至今",
-                "days": "2年又243天",
+                "days": "2年又246天",
                 "return": "5.78%",
-                "peerAverage": "10.23%",
-                "rank": "3441|4028"
+                "peerAverage": "10.27%",
+                "rank": "3445|4030"
               },
               {
                 "code": "163907",
@@ -2182,10 +2182,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2019-03-11",
                 "end": "至今",
-                "days": "7年又116天",
+                "days": "7年又119天",
                 "return": "22.02%",
-                "peerAverage": "31.27%",
-                "rank": "1101|1448"
+                "peerAverage": "31.33%",
+                "rank": "1103|1448"
               },
               {
                 "code": "000316",
@@ -2248,20 +2248,20 @@ window.FUND_MANAGER_DATA = {
             "rate": "0.00",
             "minBuy": "10",
             "return1m": "-0.04",
-            "return3m": "0.06",
-            "return6m": "0.25",
+            "return3m": "0.07",
+            "return6m": "0.26",
             "return1y": "0.99"
           },
           "manager": {
             "managers": [
               {
                 "name": "何林泽",
-                "profile": "何林泽,姜杰特的信息。\" /> 基金档案 基 金 基 金 基金经理 <li class=\"noborder\" data-s",
+                "profile": "何林泽,姜杰特的信息。\" /> 收藏本站 | 安全登录 | | 安全退出 免费开户 忘记密码 | 手机客户端 <div id=\"float_phone\" class=\"float_phone dropdow",
                 "dates": []
               },
               {
                 "name": "姜杰特",
-                "profile": "姜杰特的信息。\" /> 基金档案 基 金 基 金 基金经理 <li class=\"noborder\" data-selec",
+                "profile": "姜杰特的信息。\" /> 收藏本站 | 安全登录 | | 安全退出 免费开户 忘记密码 | 手机客户端 <div id=\"float_phone\" class=\"float_phone dropdown-me",
                 "dates": []
               }
             ],
@@ -2272,10 +2272,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-中短债",
                 "start": "2025-07-04",
                 "end": "至今",
-                "days": "364天",
-                "return": "1.82%",
-                "peerAverage": "2.91%",
-                "rank": "2289|5644"
+                "days": "1年又2天",
+                "return": "1.81%",
+                "peerAverage": "2.94%",
+                "rank": "2341|5646"
               },
               {
                 "code": "005514",
@@ -2283,10 +2283,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-中短债",
                 "start": "2025-07-04",
                 "end": "至今",
-                "days": "364天",
-                "return": "1.50%",
-                "peerAverage": "2.91%",
-                "rank": "3456|5644"
+                "days": "1年又2天",
+                "return": "1.49%",
+                "peerAverage": "2.94%",
+                "rank": "3534|5646"
               },
               {
                 "code": "017928",
@@ -2294,10 +2294,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2023-06-15",
                 "end": "至今",
-                "days": "3年又19天",
-                "return": "9.99%",
-                "peerAverage": "9.45%",
-                "rank": "260|734"
+                "days": "3年又22天",
+                "return": "9.96%",
+                "peerAverage": "9.44%",
+                "rank": "276|771"
               },
               {
                 "code": "005625",
@@ -2305,21 +2305,21 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2022-07-29",
                 "end": "至今",
-                "days": "3年又340天",
-                "return": "13.15%",
-                "peerAverage": "12.13%",
-                "rank": "228|818"
+                "days": "3年又343天",
+                "return": "13.13%",
+                "peerAverage": "12.32%",
+                "rank": "339|1090"
               },
               {
                 "code": "006667",
                 "name": "南华瑞元定期开放债券",
                 "type": "债券型-长债",
                 "start": "2022-07-29",
-                "end": "至今",
-                "days": "3年又340天",
+                "end": "2026-07-04",
+                "days": "3年又341天",
                 "return": "10.83%",
-                "peerAverage": "12.13%",
-                "rank": "550|818"
+                "peerAverage": "12.32%",
+                "rank": "746|1090"
               },
               {
                 "code": "015851",
@@ -2406,10 +2406,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "混合型-偏债",
                 "start": "2025-04-18",
                 "end": "至今",
-                "days": "1年又76天",
-                "return": "16.18%",
-                "peerAverage": "49.02%",
-                "rank": "5084|8233"
+                "days": "1年又79天",
+                "return": "16.38%",
+                "peerAverage": "49.71%",
+                "rank": "5186|8295"
               },
               {
                 "code": "018494",
@@ -2417,10 +2417,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "混合型-偏债",
                 "start": "2025-04-18",
                 "end": "至今",
-                "days": "1年又76天",
-                "return": "15.61%",
-                "peerAverage": "49.02%",
-                "rank": "5132|8233"
+                "days": "1年又79天",
+                "return": "15.82%",
+                "peerAverage": "49.71%",
+                "rank": "5238|8295"
               },
               {
                 "code": "020145",
@@ -2428,10 +2428,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2024-04-19",
                 "end": "至今",
-                "days": "2年又75天",
+                "days": "2年又78天",
                 "return": "8.43%",
-                "peerAverage": "5.89%",
-                "rank": "63|985"
+                "peerAverage": "6.05%",
+                "rank": "118|1300"
               },
               {
                 "code": "020146",
@@ -2439,10 +2439,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2024-04-19",
                 "end": "至今",
-                "days": "2年又75天",
-                "return": "7.95%",
-                "peerAverage": "5.89%",
-                "rank": "79|985"
+                "days": "2年又78天",
+                "return": "7.94%",
+                "peerAverage": "6.05%",
+                "rank": "138|1300"
               },
               {
                 "code": "675071",
@@ -2472,10 +2472,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "指数型-固收",
                 "start": "2023-08-28",
                 "end": "至今",
-                "days": "2年又310天",
+                "days": "2年又313天",
                 "return": "6.93%",
-                "peerAverage": "9.99%",
-                "rank": "2653|3818"
+                "peerAverage": "10.03%",
+                "rank": "2659|3820"
               },
               {
                 "code": "016011",
@@ -2483,10 +2483,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-利率债",
                 "start": "2022-12-07",
                 "end": "至今",
-                "days": "3年又209天",
-                "return": "11.64%",
-                "peerAverage": "12.52%",
-                "rank": "1495|3407"
+                "days": "3年又212天",
+                "return": "11.63%",
+                "peerAverage": "12.56%",
+                "rank": "1506|3409"
               }
             ]
           },
@@ -2515,10 +2515,10 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "0.30",
             "rate": "0.03",
             "minBuy": "10",
-            "return1m": "0.05",
-            "return3m": "0.52",
-            "return6m": "1.02",
-            "return1y": "1.62"
+            "return1m": "0.07",
+            "return3m": "0.53",
+            "return6m": "1.05",
+            "return1y": "1.63"
           },
           "manager": {
             "managers": [
@@ -2535,10 +2535,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-混合二级",
                 "start": "2026-06-16",
                 "end": "至今",
-                "days": "17天",
+                "days": "20天",
                 "return": "--",
-                "peerAverage": "0.00%",
-                "rank": "-|6232"
+                "peerAverage": "0.03%",
+                "rank": "-|6241"
               },
               {
                 "code": "027647",
@@ -2546,10 +2546,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-混合二级",
                 "start": "2026-06-16",
                 "end": "至今",
-                "days": "17天",
+                "days": "20天",
                 "return": "--",
-                "peerAverage": "0.00%",
-                "rank": "-|6232"
+                "peerAverage": "0.03%",
+                "rank": "-|6241"
               },
               {
                 "code": "017473",
@@ -2557,10 +2557,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2025-08-21",
                 "end": "至今",
-                "days": "316天",
-                "return": "2.23%",
-                "peerAverage": "2.47%",
-                "rank": "1912|5690"
+                "days": "319天",
+                "return": "2.24%",
+                "peerAverage": "2.50%",
+                "rank": "1908|5692"
               },
               {
                 "code": "017474",
@@ -2568,10 +2568,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2025-08-21",
                 "end": "至今",
-                "days": "316天",
-                "return": "1.97%",
-                "peerAverage": "2.47%",
-                "rank": "2641|5690"
+                "days": "319天",
+                "return": "1.98%",
+                "peerAverage": "2.50%",
+                "rank": "2624|5692"
               },
               {
                 "code": "014968",
@@ -2579,10 +2579,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2025-06-26",
                 "end": "至今",
-                "days": "1年又7天",
-                "return": "1.91%",
+                "days": "1年又10天",
+                "return": "1.92%",
                 "peerAverage": "1.90%",
-                "rank": "396|935"
+                "rank": "401|969"
               },
               {
                 "code": "014969",
@@ -2590,10 +2590,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2025-06-26",
                 "end": "至今",
-                "days": "1年又7天",
-                "return": "1.62%",
+                "days": "1年又10天",
+                "return": "1.63%",
                 "peerAverage": "1.90%",
-                "rank": "583|935"
+                "rank": "597|969"
               },
               {
                 "code": "018668",
@@ -2601,10 +2601,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2025-06-26",
                 "end": "至今",
-                "days": "1年又7天",
-                "return": "1.88%",
+                "days": "1年又10天",
+                "return": "1.90%",
                 "peerAverage": "1.90%",
-                "rank": "414|935"
+                "rank": "417|969"
               },
               {
                 "code": "024681",
@@ -2612,10 +2612,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "货币型-普通货币",
                 "start": "2025-06-24",
                 "end": "至今",
-                "days": "1年又9天",
-                "return": "1.36%",
+                "days": "1年又12天",
+                "return": "1.37%",
                 "peerAverage": "1.22%",
-                "rank": "233|892"
+                "rank": "240|892"
               }
             ]
           },
@@ -2643,10 +2643,10 @@ window.FUND_MANAGER_DATA = {
             "sourceRate": "0.40",
             "rate": "0.04",
             "minBuy": "10",
-            "return1m": "0.05",
-            "return3m": "0.42",
-            "return6m": "0.94",
-            "return1y": "1.55"
+            "return1m": "0.06",
+            "return3m": "0.41",
+            "return6m": "0.95",
+            "return1y": "1.54"
           },
           "manager": {
             "managers": [
@@ -2663,10 +2663,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2025-07-04",
                 "end": "至今",
-                "days": "364天",
-                "return": "2.72%",
-                "peerAverage": "2.91%",
-                "rank": "1212|5644"
+                "days": "1年又2天",
+                "return": "2.73%",
+                "peerAverage": "2.94%",
+                "rank": "1238|5646"
               },
               {
                 "code": "024307",
@@ -2674,10 +2674,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2025-07-04",
                 "end": "至今",
-                "days": "364天",
-                "return": "2.55%",
-                "peerAverage": "2.91%",
-                "rank": "1302|5644"
+                "days": "1年又2天",
+                "return": "2.56%",
+                "peerAverage": "2.94%",
+                "rank": "1318|5646"
               },
               {
                 "code": "022033",
@@ -2685,10 +2685,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-中短债",
                 "start": "2024-08-19",
                 "end": "至今",
-                "days": "1年又318天",
+                "days": "1年又321天",
                 "return": "3.42%",
-                "peerAverage": "7.34%",
-                "rank": "3706|4795"
+                "peerAverage": "7.37%",
+                "rank": "3712|4797"
               },
               {
                 "code": "021350",
@@ -2696,10 +2696,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2024-05-14",
                 "end": "至今",
-                "days": "2年又50天",
+                "days": "2年又53天",
                 "return": "5.69%",
-                "peerAverage": "7.39%",
-                "rank": "1964|4521"
+                "peerAverage": "7.43%",
+                "rank": "1964|4523"
               },
               {
                 "code": "021351",
@@ -2707,10 +2707,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2024-05-14",
                 "end": "至今",
-                "days": "2年又50天",
-                "return": "5.24%",
-                "peerAverage": "7.39%",
-                "rank": "2417|4521"
+                "days": "2年又53天",
+                "return": "5.25%",
+                "peerAverage": "7.43%",
+                "rank": "2409|4523"
               },
               {
                 "code": "020727",
@@ -2740,10 +2740,10 @@ window.FUND_MANAGER_DATA = {
                 "type": "债券型-长债",
                 "start": "2024-01-30",
                 "end": "至今",
-                "days": "2年又155天",
+                "days": "2年又158天",
                 "return": "8.06%",
-                "peerAverage": "9.87%",
-                "rank": "1487|4239"
+                "peerAverage": "9.91%",
+                "rank": "1493|4241"
               }
             ]
           },

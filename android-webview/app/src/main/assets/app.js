@@ -312,8 +312,8 @@ async function refreshDailyReport() {
 }
 
 function renderAlipayPicks() {
-  const picks = data.alipayPicks;
-  els.pickDate.textContent = picks ? picks.date : "待更新";
+  const picks = liveData?.alipayPicks || data.alipayPicks;
+  els.pickDate.textContent = picks?.generatedAt ? formatLiveTime(picks.generatedAt) : (picks ? picks.date : "待更新");
   els.alipayPicks.innerHTML = "";
   if (!picks || !Array.isArray(picks.items)) return;
 
@@ -330,7 +330,7 @@ function renderAlipayPicks() {
         <span class="rank">${item.rank}</span>
         <div>
           <strong>${item.name}</strong>
-          <p class="muted">${item.market} · ${item.action}</p>
+          <p class="muted">${item.market} · ${item.action}${item.score ? ` · ${item.score}分` : ""}</p>
         </div>
       </div>
       <p>${item.buy}</p>
@@ -355,6 +355,31 @@ function pickBucketName(item) {
 }
 
 function renderManagerMatches(item) {
+  if (Array.isArray(item.managerCandidates) && item.managerCandidates.length) {
+    const rows = item.managerCandidates.slice(0, 3).map((fund) => {
+      const managers = Array.isArray(fund.managers) && fund.managers.length ? fund.managers.join("、") : "未识别";
+      const reasons = Array.isArray(fund.reasons) && fund.reasons.length ? fund.reasons.join("；") : "云端已采集公开资料";
+      return `
+        <div class="manager-row">
+          <div>
+            <strong>${fund.name}</strong>
+            <p class="muted">${fund.code} · ${managers}</p>
+            <p class="muted">${reasons}</p>
+          </div>
+          <span class="score small">${fund.managerScore || 0}</span>
+        </div>
+      `;
+    }).join("");
+    return `
+      <div class="manager-box">
+        <div class="section-head compact">
+          <strong>云端基金经理候选</strong>
+          <span class="status-pill">${item.managerScore || "已更新"}</span>
+        </div>
+        ${rows}
+      </div>
+    `;
+  }
   const bucketName = pickBucketName(item);
   const bucket = fundManagerData?.buckets?.find((entry) => entry.bucket === bucketName);
   if (!bucket || !bucket.candidates?.length) {

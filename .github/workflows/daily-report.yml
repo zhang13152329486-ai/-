@@ -34,6 +34,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Collect fund manager candidates
+        run: python scripts/collect_fund_managers.py
+
       - name: Collect daily report
         run: python scripts/collect_daily.py
 
@@ -42,6 +45,8 @@ jobs:
           mkdir -p cloud
           cp data/daily-news.json cloud/daily-news.json
           cp web/live-data.js cloud/live-data.js
+          cp data/fund-manager-data.json cloud/fund-manager-data.json
+          cp web/fund-manager-data.js cloud/fund-manager-data.js
           cat > cloud/index.html <<'HTML'
           <!doctype html>
           <meta charset="utf-8">
