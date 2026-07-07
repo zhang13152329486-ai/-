@@ -6,8 +6,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "7,22,37,52 0-2 * * *"
-    - cron: "7,22,37,52 5-9 * * *"
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: read
@@ -41,6 +40,20 @@ jobs:
 
       - name: Collect daily report
         run: python scripts/collect_daily.py
+
+      - name: Verify generated report
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("data/daily-news.json").read_text(encoding="utf-8"))
+          picks = data.get("alipayPicks", {}).get("items", [])
+          print("generatedAt:", data.get("generatedAt"))
+          print("news items:", len(data.get("items", [])))
+          print("alipay picks:", len(picks))
+          if not data.get("generatedAt") or not data.get("items") or not picks:
+              raise SystemExit("daily report is incomplete")
+          PY
 
       - name: Prepare Pages artifact
         run: |
