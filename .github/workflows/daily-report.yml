@@ -2,11 +2,17 @@ name: Daily Fund Report
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types:
+      - daily-report
   push:
     branches:
       - master
   schedule:
-    - cron: "*/15 * * * *"
+    # GitHub scheduled workflows are best-effort and can be delayed or dropped.
+    # Run at off-peak minutes, with several morning/afternoon retries in China time.
+    - cron: "11,29,47 0-2 * * *"
+    - cron: "11,29,47 5-9 * * *"
 
 permissions:
   contents: read
