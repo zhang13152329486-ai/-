@@ -5,7 +5,7 @@ $androidHome = Join-Path $root ".build-tools\android-sdk"
 $gradle = Join-Path $root ".build-tools\gradle-8.11.1\bin\gradle.bat"
 $project = Join-Path $root "android-webview"
 $apk = Join-Path $project "app\build\outputs\apk\debug\app-debug.apk"
-$dist = Join-Path $root "dist\FundAssistant-0.3.2-debug.apk"
+$dist = Join-Path $root "dist\FundAssistant-0.3.3-debug.apk"
 
 if (!(Test-Path $gradle)) {
     Write-Host "Gradle not found. Keep the .build-tools directory or install Gradle manually."

@@ -1,8 +1,8 @@
-const CACHE_NAME = "cn-fund-assistant-v9";
+const CACHE_NAME = "cn-fund-assistant-v10";
 const ASSETS = [
   "./",
   "./index.html",
-  "./styles.css",
+  "./styles.css?v=10",
   "./app.js?v=7",
   "./config.js?v=8",
   "./data.js?v=7",
