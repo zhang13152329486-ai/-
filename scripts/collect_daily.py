@@ -271,6 +271,36 @@ def buy_rule_for_score(score, key):
     return "今日不主动加仓，已有仓位以持有观察为主。"
 
 
+def market_pressure_for_template(template, items):
+    if template["key"] != "ai":
+        return None
+    titles = " ".join(item.get("title", "") for item in items)
+    weak_patterns = [
+        r"半导体[^。；，]*?(下挫|重挫|领跌|走弱|调整|回调)",
+        r"(半导体设备|存储芯片|先进封装|光刻机)[^。；，]*?(跌|下挫|重挫|领跌|走弱|调整)",
+        r"(下挫|重挫|领跌|走弱|调整|回调)[^。；，]*?(半导体|芯片|存储|光刻机|先进封装)"
+    ]
+    if any(re.search(pattern, titles) for pattern in weak_patterns):
+        return {
+            "scoreCap": 72,
+            "action": "暂缓追买",
+            "buy": "今日半导体盘面偏弱，不主动补仓；已有仓位以观察为主，等放量止跌或回踩企稳后再分批。",
+            "note": "盘面出现半导体/芯片方向走弱信号，已下调今日补仓优先级。"
+        }
+    chop_patterns = [
+        r"半导体[^。；，]*?(震荡|横盘|分化)",
+        r"(震荡|横盘|分化)[^。；，]*?(半导体|芯片)"
+    ]
+    if any(re.search(pattern, titles) for pattern in chop_patterns):
+        return {
+            "scoreCap": 76,
+            "action": "只观察/定投",
+            "buy": "今日半导体以震荡为主，不追涨；只保留小额定投或等回落确认。",
+            "note": "盘面偏震荡，已限制主题补仓评分。"
+        }
+    return None
+
+
 def build_alipay_picks(items, generated_at):
     counts = count_sector_signals(items)
     manager_context = load_manager_context()
@@ -280,6 +310,11 @@ def build_alipay_picks(items, generated_at):
         manager_info = manager_context.get(template["bucket"], {})
         manager_score = manager_info.get("score", 70)
         score = min(95, template["baseScore"] + signal_count * 4 + max(0, manager_score - 75) // 4)
+        pressure = market_pressure_for_template(template, items)
+        if pressure:
+            score = min(score, pressure["scoreCap"])
+        action = pressure["action"] if pressure else action_for_score(score, template["key"])
+        buy = pressure["buy"] if pressure else buy_rule_for_score(score, template["key"])
         picks.append({
             **{k: v for k, v in template.items() if k not in {"key", "bucket", "baseScore"}},
             "rank": 0,
@@ -287,8 +322,9 @@ def build_alipay_picks(items, generated_at):
             "signalCount": signal_count,
             "managerScore": manager_score,
             "managerCandidates": manager_info.get("candidates", []),
-            "action": action_for_score(score, template["key"]),
-            "buy": buy_rule_for_score(score, template["key"]),
+            "marketPressure": pressure["note"] if pressure else "",
+            "action": action,
+            "buy": buy,
         })
 
     picks.sort(key=lambda item: item["score"], reverse=True)
@@ -297,6 +333,7 @@ def build_alipay_picks(items, generated_at):
         item["reason"] = (
             f"{item['reason']} 今日相关新闻/政策信号 {item['signalCount']} 条，"
             f"基金经理候选均分约 {item['managerScore']} 分。"
+            f"{item['marketPressure']}"
         )
 
     top = picks[0] if picks else None
