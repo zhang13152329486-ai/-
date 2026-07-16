@@ -1,3 +1,3 @@
 window.FUND_ASSISTANT_CONFIG = {
-  cloudDailyUrl: ""
+  cloudDailyUrl: "https://zhang13152329486-ai.github.io/-/daily-news.json"
 };
